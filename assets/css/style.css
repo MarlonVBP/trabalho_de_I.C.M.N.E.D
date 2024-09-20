@@ -1,0 +1,54 @@
+body {
+ font-family: Arial, sans-serif;
+ margin: 0;
+ padding: 0;
+ background-color: #f4f4f4;
+}
+
+.container {
+ max-width: 800px;
+ margin: auto;
+ padding: 20px;
+}
+
+h1 {
+ text-align: center;
+}
+
+canvas {
+ margin: 20px 0;
+}
+
+.representatividade {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+
+ font-weight: bold;
+ margin-bottom: 10px;
+}
+
+header {
+ background: #007bff;
+ color: white;
+ padding: 10px 0;
+ text-align: center;
+}
+
+footer {
+ background: #333;
+ color: white;
+ text-align: center;
+ padding: 10px 0;
+ position: relative;
+ bottom: 0;
+ width: 100%;
+}
+
+.dashboard {
+ background: white;
+ border-radius: 5px;
+ box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+ margin: 20px 0;
+ padding: 20px;
+}

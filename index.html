@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Dados de Vendas</h1>
+    </header>
+    <div class="container">
+        <div class="dashboard">
+            <div class="representatividade">Número de novos clientes</div>
+            <canvas id="clientesNovos" width="400" height="200"></canvas>
+        </div>
+        <div class="dashboard">
+            <div class="representatividade">Receita do mês</div>
+            <canvas id="receitaMes" width="400" height="200"></canvas>
+        </div>
+        <div class="dashboard">
+            <div class="representatividade">Receita trimestral média das lojas</div>
+            <canvas id="receitaTrimestral" width="400" height="200"></canvas>
+        </div>
+        <div class="dashboard">
+            <div class="representatividade">Número de lojas</div>
+            <canvas id="numeroLojas" width="400" height="200"></canvas>
+        </div>
+        <div class="dashboard">
+            <div class="representatividade">Representatividade</div>
+            <canvas id="representatividade" width="400" height="200"></canvas>
+        </div>
+    </div>
+    <footer>
+        <p>Desenvolvido por Marlon Passos</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
